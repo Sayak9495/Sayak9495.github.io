@@ -26,6 +26,8 @@ function setup() {
 		}
 		var scorep=select('#score');
 		scorep.html('score: '+totalscore);
+		var comp=select('#comparative');
+		comp.html('Comparative Score: '+totalscore/words.length);
 		var wordlist = select('#wordlist');
 		wordlist.html(scoredwords)
 	}
