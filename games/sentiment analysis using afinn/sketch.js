@@ -13,7 +13,7 @@ function setup() {
 
 	function typing(){
 		var txtinput = txt.value();
-		var words = txt.split(/\W/);
+		var words = txtinput.split(/\W/);
 		var scoredwords=[];
 		var totalscore = 0;
 		for (var i=0;i<words.length; i++){
