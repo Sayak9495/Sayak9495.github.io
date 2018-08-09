@@ -44,8 +44,8 @@ function Snake() {
 			this.tail[this.total-1]=createVector(this.x,this.y);
 		}
 		
-		this.x = this.x + this.xspeed*scl;
-		this.y = this.y + this.yspeed*scl;		
+		this.x = this.x + this.xspeed*scl*2;
+		this.y = this.y + this.yspeed*scl*2;		
 
 		this.x = constrain(this.x , 0, width-scl);
 		this.y = constrain(this.y , 0, height-scl);
