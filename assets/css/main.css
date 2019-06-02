@@ -1572,6 +1572,10 @@ div#skills {
 		}
 
 /* Intro */
+	
+	#intro img {
+		margintop: 20px;
+	}
 
 	#intro {
 		padding: 4em 4em 2em 4em;
