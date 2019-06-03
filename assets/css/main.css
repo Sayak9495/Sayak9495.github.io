@@ -107,6 +107,10 @@
 		color: #666666;
 	}
 
+	.blog-pages{
+		background-color: #fff !important;
+	}
+
 	body, input, select, textarea {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
@@ -272,7 +276,10 @@
 	}
 
 	.align-center {
-		text-align: center;
+		display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 75%;
 	}
 
 	.align-right {
@@ -1329,6 +1336,12 @@ div#skills {
 
     #blog{
 	    font-size: 1.4em;
+	    text-align: left !important;
+	}
+
+	#blog p{
+		font-size: 1.5em;
+		text-align: center !important;	
 	}
 
 	#h1{
@@ -1556,7 +1569,11 @@ div#skills {
 		}
 
 /* Intro */
-	
+
+	.main-blog-section{
+		background-color: #f4f4f4 !important;
+	}
+
 	#intro img {
 		margintop: 20px;
 	}
