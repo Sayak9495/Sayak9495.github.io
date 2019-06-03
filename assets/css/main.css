@@ -1321,14 +1321,13 @@ div#skills {
 /* Wrapper */
 
 	#wrapper {
-		width:52em;
+		width:54em;
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		padding: 4em 0 2em 0;
 	}
 
     #blog{
-	    font-family: 'Coming Soon', cursive;
 	    font-size: 1.4em;
 	}
 
