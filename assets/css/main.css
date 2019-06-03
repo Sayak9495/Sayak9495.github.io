@@ -1398,12 +1398,10 @@ div#skills {
 	}
 
 		#header img {
-		    border-radius: 100%;
+		    border-radius: 50%;
 		    position: relative;
-		    width: 110%;
-		    width: calc(10% + 1em);
-		    height: 110px;
-		    height: calc(10% + 4em);
+		    width: 100px;
+		    height: 100px;
 
 		}
 		#header input, #header select, #header textarea {
